@@ -1,11 +1,12 @@
 {
     "name"        : "Getopt::Type",
-    "version"     : "0.1",
-    "perl"	      : "6.c",
+    "version"     : "0.1.1",
+    "perl"	  : "6.d",
     "description" : "MAIN? Getopt semantics? Why not both?",
+    "auth"        : "github:JJ",
     "depends"     : [
     ],
-    "source-url"  : "git://github.com/tadzik/Getopt-Type.git",
+    "source-url"  : "https://github.com/JJ/Getopt-Type.git",
     "authors" : [
         "Tadeusz “tadzik” Sośnierz"
     ],
