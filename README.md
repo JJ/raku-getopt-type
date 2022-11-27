@@ -13,6 +13,6 @@ sub MAIN(*%opts where getopt(<f|force v|verbose>)) {
     say %opts.perl;
 }
 
-# try `perl6 -Ilib README.md -fv`
+# try `raku -Ilib README.md -fv thisprog.raku`
 ```
 
