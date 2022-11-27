@@ -15,6 +15,6 @@
         "source" : "git://github.com/tadzik/Getopt-Type.git"
     },
     "provides"    : {
-        "Getopt::Type" : "lib/Getopt/Type.pm"
+        "Getopt::Type" : "lib/Getopt/Type.rakumod"
     }
 }
