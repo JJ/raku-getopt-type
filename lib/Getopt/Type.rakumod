@@ -1,4 +1,4 @@
-unit module Getopt::Type;
+unit module Getopt::Type:auth<zef:jjmerelo>;
 
 class Getopt::Type::Constraint {
     has %.accepted;
