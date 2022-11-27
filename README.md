@@ -1,4 +1,4 @@
-# Getopt::Type
+# Getopt::Type [![Test-install distro](https://github.com/JJ/raku-getopt-type/actions/workflows/test.yaml/badge.svg)](https://github.com/JJ/raku-getopt-type/actions/workflows/test.yaml)
 
 Forked from [`tadzik`s](https://github.com/tadzik/Getopt-Type) version
 
