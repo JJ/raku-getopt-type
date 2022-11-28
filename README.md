@@ -10,11 +10,12 @@ use Getopt::Type:auth<zef:jjmerelo>;
 sub MAIN(*%opts where getopt(<f|force v|verbose>)) {
     say "Forcing!"   if %opts<force>;
     say "Verbosing!" if %opts<verbose>;
-    say %opts.perl;
+    say %opts.raku;
 }
 
-# try `raku -Ilib README.md -fv thisprog.raku`
 ```
+
+Save as `thisprog.raku` and try `raku -Ilib thisprog.raku -fv`
 
 ## Changes with respect to the original
 
