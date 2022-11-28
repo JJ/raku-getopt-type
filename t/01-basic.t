@@ -45,4 +45,11 @@ subtest {
     is-deeply foo(:33l,:22s), %(:33long,:33l,:22s), "Values also OK";
 }, "Combined long and short";
 
+subtest {
+    sub foo( *%opts where getopt(<l s d>)) {
+        %opts;
+    }
+    is-deeply foo(:lsd), %(:l,:s,:d), "Values also OK";
+}, "Work with one-letter collapsed options";
+
 done-testing;
