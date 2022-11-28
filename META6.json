@@ -1,18 +1,14 @@
 {
     "name"        : "Getopt::Type",
     "version"     : "0.1.1",
-    "perl"	  : "6.d",
     "description" : "MAIN? Getopt semantics? Why not both?",
-    "auth"        : "github:JJ",
-    "depends"     : [
-    ],
-    "source-url"  : "https://github.com/JJ/Getopt-Type.git",
+    "auth"        : "zef:jjmerelo",
     "authors" : [
         "Tadeusz “tadzik” Sośnierz"
     ],
     "support" : {
-        "bugtracker" : "https://github.com/tadzik/Getopt-Type/issues",
-        "source" : "git://github.com/tadzik/Getopt-Type.git"
+        "bugtracker" : "https://github.com/JJ/raku-getopt-type/issues",
+        "source" : "git://github.com/JJ/raku-getopt-type.git"
     },
     "provides"    : {
         "Getopt::Type" : "lib/Getopt/Type.rakumod"
