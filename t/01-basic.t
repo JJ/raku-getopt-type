@@ -1,7 +1,7 @@
 use Test;
 use Getopt::Type;
 
-{
+subtest {
     my %here;
     sub foo(*%opts where getopt(<force push>)) {
         %here = %opts
@@ -13,9 +13,9 @@ use Getopt::Type;
     nok %here<force>;
     ok %here<push>;
     dies-ok  { foo(:whatever)  }
-}
+}, "Check long options";
 
-{
+subtest {
     my %here;
     sub foo(*%opts where getopt(<f|force v|verbose n|never>)) {
         %here = %opts
@@ -35,6 +35,14 @@ use Getopt::Type;
     check-contents;
     lives-ok { foo(:fv) }
     check-contents;
-}
+}, "Check long with short options";
+
+subtest {
+    sub foo( *%opts where getopt(<l|long s>)) {
+        %opts;
+    }
+    is-deeply foo(:l, :s), foo(:long,:s), "Long and short are the same";
+    is-deeply foo(:33l,:22s), %(:33long,:33l,:22s), "Values also OK";
+}, "Combined long and short";
 
 done-testing;
