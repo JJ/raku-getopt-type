@@ -6,6 +6,7 @@
     "authors" : [
         "Tadeusz “tadzik” Sośnierz"
     ],
+    "license" : "Artistic-2.0",
     "support" : {
         "bugtracker" : "https://github.com/JJ/raku-getopt-type/issues",
         "source" : "git://github.com/JJ/raku-getopt-type.git"

@@ -27,4 +27,4 @@ Mainly cosmetic changes, but also accepts
 This work is (c) Tadeusz Sośnierz, with some code by Zoffix ZNet and Alex
  Daniel.
  
-It's released under the Artistic License
+It's released under the Artistic License 2.0. See [LICENSE](LICENSE) for
