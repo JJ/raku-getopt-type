@@ -21,11 +21,19 @@ Save as `thisprog.raku` and try `raku -Ilib thisprog.raku -fv`
 
 Mainly cosmetic changes, but also accepts
 [this PR](https://github.com/tadzik/Getopt-Type/pulls) that had been there
- for a long time. No functionality changes for the time being.
- 
+ for a long time. No functionality changes for the time being. Some more tests
+ is all.
+
+## See also
+
+Check out the excellent
+[`Getopt::Long`](https://raku.land/cpan:LEONT/Getopt::Long) by Leon Timmermans,
+with more extensive argument definition options, including types.
+
+
 ## LICENSE
 
 This work is (c) Tadeusz Sośnierz, with some code by Zoffix ZNet and Alex
  Daniel.
- 
+
 It's released under the Artistic License 2.0. See [LICENSE](LICENSE) for
